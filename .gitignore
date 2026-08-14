@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and local configuration
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Raw third-party data and generated datasets
+data/raw/
+data/processed/
+
+# Prevent accidental dataset copies elsewhere in the repository
+Marmarica_sites.csv
+Marmarica_sites_analysis_ready.csv
+Metadata.xlsx
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
